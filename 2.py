@@ -1,0 +1,8 @@
+a=open('2.txt','w')
+a.write('kya re setting ah?')
+a=open('2.txt','r')
+a.read()
+a=open('2.txt','a')
+a.write(" vengha maghe othela nikken,dil irundha mothama vangale")
+a=open('2.txt','r')
+a.read()
