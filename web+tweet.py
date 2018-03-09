@@ -18,7 +18,7 @@ while a<=1:
     cmd="fswebcam -F 3 --fps 20 - 800x600 "+img
     os.system(cmd)
     print("pic has been taken")
-    api.update_with_media(img, status= "Semma")
+    api.update_with_media(img, status= "Cute picture")
     print("wait for 5 seconds for selfie")
     time.sleep(5)
     a+=1
